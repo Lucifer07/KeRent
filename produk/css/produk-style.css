@@ -73,35 +73,90 @@ nav .navbar-nav .profil {
 }
 
 /* Akhir Navbar */
-/* Awal Main */
-.main .kiri {
-  width: 400px;
+/* Awal content */
+.content .kiri {
+  width: 300px;
   padding-top: 20px;
 }
-.main .profile,
-.main .navigasi,
-.main .kanan {
-  height: 10px;
+.content .profile,
+.content .navigasi,
+.content .kanan {
   background-color: #e8e8e8;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-bottom: 15px;
 }
 
-.main .navigasi {
-  padding: 20px 0 0 30px;
-  height: 100%;
+.content .kiri .profile {
+  padding: 10px;
+  overflow: auto;
 }
 
-.main .navigasi a {
+.content .kiri .profile img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.content .kiri .profile h5 {
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+.content .kiri .profile h6 {
+  font-size: 12px;
+  margin-top: -5px;
+}
+.content .kiri .profile a {
+  margin-top: -10px;
+  font-size: 12px;
+  color: #70a1d7;
+}
+
+.content .navigasi {
+  padding: 20px 0 0 30px;
+  height: 200px;
+}
+
+.content .navigasi a {
   color: #bbbfca;
 }
 
-.main .navigasi a:hover {
+.content .navigasi a:hover {
   font-weight: bold;
   color: #495464;
 }
 
-.main .kanan {
+.content .kanan {
   margin-top: 20px;
+  height: 500px;
 }
-/* Akhir Main */
+
+.content .kanan h5 {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.content .kanan .des {
+  margin-left: 30px;
+  margin-top: -2px;
+  line-height: 20px;
+}
+
+.content .kanan hr {
+  color: #495464;
+  width: 96%;
+  height: 1px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.content .kanan .row {
+  margin-bottom: 10px;
+}
+
+.content .kanan a {
+  text-decoration: none;
+}
+
+/* Akhir content */
