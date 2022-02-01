@@ -191,4 +191,48 @@ nav .navbar-nav .profil {
   top: 0;
 }
 
+/* Transaksi */
+.transaksi .container {
+  padding: 20px;
+}
+
+.transaksi .product {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: auto;
+}
+.transaksi .product .status {
+  overflow: auto;
+}
+
+.transaksi .product .status h6 {
+  float: left;
+}
+
+.transaksi .product .status div {
+  float: right;
+}
+
+.transaksi .product .status hr {
+  margin-top: 15px;
+}
+
+.transaksi .product img {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: -10px;
+  margin-right: 20px;
+  border-radius: 20px;
+  float: left;
+}
+
+.transaksi .product h5 {
+  margin-top: -5px;
+}
+
+.transaksi .product h6 {
+  color: #f47c7c;
+}
 /* Akhir content */
