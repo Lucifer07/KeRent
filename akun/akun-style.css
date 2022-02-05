@@ -1,0 +1,211 @@
+/* Akun */
+body {
+  color: #495464;
+}
+
+/* Awal Profile */
+.akun .profile {
+  padding: 15px;
+  margin: 20px 10px;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  overflow: auto;
+  box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+}
+
+.akun .profile img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.akun .profile p {
+  font-size: 14px;
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.akun .profile a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #70a1d7;
+}
+
+/* Akhir Profile */
+/* Awal Navigasi */
+
+.akun .navigasi a {
+  font-size: 16px;
+  color: #bbbfca;
+  overflow: auto;
+}
+
+.akun .navigasi .nav-link {
+  margin-bottom: 10px;
+}
+
+.akun .navigasi .icon {
+  float: left;
+  margin-right: 5px;
+}
+
+.akun .navigasi p {
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+.akun .navigasi a:hover {
+  color: #495464;
+}
+
+.akun .navigasi a:active {
+  color: #495464;
+}
+
+.akun .navigasi a:hover span {
+  color: #495464;
+}
+
+.akun .navigasi {
+  padding: 20px;
+  margin: 20px 10px;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+}
+
+/* Akhir Navigasi */
+/* Awal main  */
+
+.akun .main {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(209, 217, 230, 1);
+}
+
+.akun .main p {
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 3%;
+}
+
+/* ubah password */
+.akun .main .password input {
+  border-radius: 10px;
+  border: none;
+  width: 340px;
+}
+
+.akun .main .password .col-7 div {
+  margin-right: 20%;
+}
+
+.akun .main .password .col-7 button {
+  padding: 5px 20px;
+  border-radius: 7px;
+  border: none;
+}
+
+/* Transaksi + Produk kami*/
+.akun .main .produk {
+  padding: 10px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+/* Transaksi */
+
+.akun .main .produk .status {
+  overflow: auto;
+  margin-bottom: -20px;
+}
+
+.akun .main .produk .status p {
+  float: left;
+}
+
+.akun .main .produk .status span {
+  float: right;
+}
+
+/* Transaksi + produk kami */
+
+.akun .main .produk .barang {
+  overflow: auto;
+}
+
+.akun .main .produk .barang img {
+  width: 120px;
+  height: 120px;
+  float: left;
+}
+
+.akun .main .produk .barang h6 {
+  color: #f47c7c;
+}
+
+/*  Produk kami */
+
+.akun .main .produk .iconify {
+  float: right;
+}
+
+/* profil */
+
+.akun .main .profil img {
+  width: 130px;
+  height: 130px;
+}
+
+.akun .main .profil a {
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.akun .main .profil input {
+  border-radius: 10px;
+  border: none;
+  width: 340px;
+  color: #495464;
+}
+
+.akun .main .profil button {
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.akun .main .profil .gender input {
+  width: 15px;
+}
+
+.akun .main .profil .hari {
+  width: 70px;
+  border-radius: 10px;
+  border: none;
+  color: #495464;
+}
+.akun .main .profil .bulan {
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  color: #495464;
+  margin-left: -10px;
+}
+.akun .main .profil .tahun {
+  margin-left: -10px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  color: #495464;
+}
+
+/* Akhir main */
