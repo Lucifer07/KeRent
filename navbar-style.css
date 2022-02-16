@@ -1,0 +1,108 @@
+body {
+    color: #495464;
+}
+
+nav {
+    background-color: #e8e8e8;
+}
+
+nav .navbar-brand {
+    margin-right: 180px;
+}
+
+nav .d-flex input {
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+nav .search {
+    background-color: #495464;
+    border-radius: 50px;
+    width: 36px;
+    padding: 4px 8px;
+}
+
+
+/* ----------------------------------------- */
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #17a2b8;
+}
+
+.dropdown-menu {
+    top: 60px;
+    right: 0px;
+    left: unset;
+    width: 460px;
+    /* box-shadow: 0px 5px 7px -1px #e8e8e8; */
+    padding-bottom: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    border: 0px;
+}
+
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 32px;
+    border: 10px solid #e8e8e8;
+    border-color: transparent transparent #e8e8e8 transparent;
+}
+
+.head {
+    padding: 1px 35px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.footer {
+    padding: 5px 15px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.notification-box {
+    padding: 10px 0px;
+}
+
+.help .notification-box {
+    margin-top: -18px;
+    padding: 15px 0px 10px;
+}
+
+.notif .notification-box {
+    margin-top: -18px;
+    padding: 15px 0px 10px;
+}
+
+.help .notification-box .btn {
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    border-color: #495464;
+    box-shadow: inset;
+}
+
+.bg-gray {
+    background-color: #eee;
+}
+
+@media (max-width: 640px) {
+    .dropdown-menu {
+        top: 50px;
+        left: -16px;
+        width: 290px;
+    }
+    .nav {
+        display: block;
+    }
+    .nav .nav-item,
+    .nav .nav-item a {
+        padding-left: 0px;
+    }
+    .message {
+        font-size: 13px;
+    }
+}
