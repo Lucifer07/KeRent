@@ -1,0 +1,86 @@
+#searchresult .title {
+    color: #495464;
+}
+
+#searchresult .card {
+    background-color: #e8e8e8;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+/* Buat dua kolom berbeda, yg mengapung bersebelahan */
+
+#searchresult #leftcolumn {
+    float: left;
+    width: 73%;
+}
+
+#searchresult #rightcolumn {
+    float: right;
+    width: 25%;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* LEFT COLUMN */
+
+
+/* LIST SEARCH RESULT */
+
+#searchresult #leftcolumn .card img {
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 auto;
+}
+
+#searchresult #leftcolumn .card h5 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #495464;
+}
+
+#searchresult #leftcolumn .card h4 {
+    line-height: 18px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: #d05d5d;
+}
+
+
+/* RIGHT COLUMN */
+
+#searchresult #rightcolumn .card {
+    padding: 20px;
+}
+
+#searchresult #rightcolumn .card .title hr {
+    width: auto;
+    margin-top: 0;
+}
+
+
+/* SORT BY */
+
+#searchresult #rightcolumn .sortby table {
+    margin: auto;
+    border-width: 15px;
+}
+
+#searchresult #rightcolumn .sortby button {
+    background-color: #495464;
+    color: #e8e8e8;
+    width: 130px;
+    text-align: center;
+}
+
+
+/* FILTER */
+
+#searchresult #rightcolumn .filter .kategori p {
+    margin-left: 30px;
+    color: #495464;
+    font-size: larger;
+    margin-top: -3px;
+}
